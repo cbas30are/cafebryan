@@ -1,0 +1,47 @@
+<!DOCTYPE Branches [
+    <!ELEMENT Branches (Branch+)>
+    <!ELEMENT Branch (Address, Contact, OpeningHours, MapLink)>
+    <!ELEMENT Address (#PCDATA)>
+    <!ELEMENT Contact (#PCDATA)>
+    <!ELEMENT OpeningHours (Day+, Time+)>
+    <!ELEMENT Day (#PCDATA)>
+    <!ELEMENT Time (#PCDATA)>
+    <!ELEMENT MapLink (#PCDATA)>
+]>
+
+
+<!DOCTYPE EnquiryForm [
+    <!ELEMENT EnquiryForm (FirstName, LastName, EmailAddress, MessageSubject, MessageBody, SubmitButton, Notification)>
+    <!ELEMENT FirstName (#PCDATA)>
+    <!ELEMENT LastName (#PCDATA)>
+    <!ELEMENT EmailAddress (#PCDATA)>
+    <!ELEMENT MessageSubject (#PCDATA)>
+    <!ELEMENT MessageBody (#PCDATA)>
+    <!ELEMENT SubmitButton (#PCDATA)>
+    <!ELEMENT Notification (#PCDATA)>
+]>
+
+<!DOCTYPE Menu [
+    <!ELEMENT Menu (Meals, Beverages)>
+    
+    <!-- Meals Section -->
+    <!ELEMENT Meals (Meal+)>
+    <!ELEMENT Meal (Name, Price, Description, Image)>
+    <!ELEMENT Name (#PCDATA)>
+    <!ELEMENT Price (#PCDATA)>
+    <!ELEMENT Description (#PCDATA)>
+    <!ELEMENT Image (#PCDATA)>
+    
+    <!-- Beverages Section -->
+    <!ELEMENT Beverages (CoffeeHotChocolates, OtherBeverages)>
+    
+    <!-- Coffee and Hot Chocolates -->
+    <!ELEMENT CoffeeHotChocolates (Size+)>
+    <!ELEMENT Size (SizeName, Price, Description)>
+    <!ELEMENT SizeName (#PCDATA)>
+    <!ELEMENT Description (#PCDATA)>
+    
+    <!-- Other Beverages -->
+    <!ELEMENT OtherBeverages (Beverage+)>
+    <!ELEMENT Beverage (Name, Price)>
+]>

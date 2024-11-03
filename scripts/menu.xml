@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE menu SYSTEM "menu.dtd">
+<menu>
+    <meals>
+        <meal>18.00 - Sourdough Rye Sandwich</meal>
+        <meal>15.00 - Beetroot and feta salad</meal>
+        <meal>20.00 - Spinach Pie and Salad</meal>
+        <meal>19.50 - Feta pancakes with salad</meal>
+    </meals>
+    <drinks>
+        <drink>4.00 - Coffee (M)</drink>
+        <drink>4.50 - Coffee (L)</drink>
+        <drink>3.50 - Coffee (S)</drink>
+        <drink>3.00 - Soda</drink>
+        <drink>6.00 - Juice</drink>
+        <drink>2.00 - Water</drink>
+    </drinks>
+</menu>

@@ -1,0 +1,10 @@
+<!DOCTYPE EnquiryForm [
+    <!ELEMENT EnquiryForm (FirstName, LastName, EmailAddress, MessageSubject, MessageBody, SubmitButton, Notification)>
+    <!ELEMENT FirstName (#PCDATA)>
+    <!ELEMENT LastName (#PCDATA)>
+    <!ELEMENT EmailAddress (#PCDATA)>
+    <!ELEMENT MessageSubject (#PCDATA)>
+    <!ELEMENT MessageBody (#PCDATA)>
+    <!ELEMENT SubmitButton (#PCDATA)>
+    <!ELEMENT Notification (#PCDATA)>
+]>
